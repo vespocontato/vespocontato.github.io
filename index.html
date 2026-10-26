@@ -402,10 +402,13 @@
 
   .horarios-lista .linha {
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
-    gap: 12px;
+    gap: 2px 12px;
     padding: 6px 0;
   }
+
+  .horarios-lista .pontos { min-width: 20px; }
 
   .horarios-lista .modal {
     color: var(--off-white);
@@ -423,6 +426,7 @@
     color: var(--cinza);
     font-size: 0.96rem;
     text-align: right;
+    margin-left: auto;
   }
 
   .tarja-mini {
@@ -1061,8 +1065,9 @@
         <p class="horarios-grupo-titulo">Aulas específicas / técnica</p>
         <div class="horarios-lista">
           <div class="linha"><span class="modal">Gymnastics</span><span class="pontos"></span><span class="horas">terça e quinta às 19h30</span></div>
-          <div class="linha"><span class="modal">LPO</span><span class="pontos"></span><span class="horas">terça a sexta às 18h30</span></div>
-          <div class="linha"><span class="modal">Hyrox</span><span class="pontos"></span><span class="horas">segunda, quarta e sexta às 6h e 19h30</span></div>
+          <div class="linha"><span class="modal">LPO (turma de base)</span><span class="pontos"></span><span class="horas">segunda e sexta às 17h30</span></div>
+          <div class="linha"><span class="modal">LPO</span><span class="pontos"></span><span class="horas">segunda a sexta às 18h30</span></div>
+          <div class="linha"><span class="modal">Hyrox</span><span class="pontos"></span><span class="horas">segunda, quarta e sexta às 6h · todos os dias às 19h30</span></div>
         </div>
       </div>
 
@@ -1094,7 +1099,7 @@
         <p class="etiqueta">Plano</p>
         <h3 class="bloco-titulo">Mensal</h3>
         <div class="preco-item">
-          <div class="preco-linha"><span class="nome">Starter <small>(3x + sáb.)</small></span><span class="pontos"></span><span class="preco-valor">R$265</span></div>
+          <div class="preco-linha"><span class="nome">Starter <small>(3x + sáb.)</small></span><span class="pontos"></span><span class="preco-valor">R$285</span></div>
           <p class="preco-legenda">Até 3 treinos por semana + sábado</p>
         </div>
         <div class="preco-item">
@@ -1111,7 +1116,7 @@
           <li class="nao">Sem férias/trancamento</li>
         </ul>
         <p class="adesao">Taxa de adesão: R$60,00</p>
-        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20plano%20%2AMensal%2A%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%20Starter%20R%24265%2C%20Performance%20R%24315%20ou%20Open%20Box%20R%24405%20%28sem%20fidelidade%2C%20cancelamento%20livre%29.">Quero esse plano →</a>
+        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20plano%20%2AMensal%2A%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%20Starter%20R%24285%2C%20Performance%20R%24315%20ou%20Open%20Box%20R%24405%20%28sem%20fidelidade%2C%20cancelamento%20livre%29.">Quero esse plano →</a>
       </div>
 
       <div class="preco-card">
@@ -1132,7 +1137,7 @@
       <div class="preco-card destaque">
         <span class="tarja-mini">Mais vantagens</span>
         <h3 class="bloco-titulo" style="margin-top: 14px;">Anual recorrente</h3>
-        <div class="preco-linha"><span class="nome">Starter <small>(3x + sáb.)</small></span><span class="pontos"></span><span class="preco-valor">R$225<small>/mês</small></span></div>
+        <div class="preco-linha"><span class="nome">Starter <small>(3x + sáb.)</small></span><span class="pontos"></span><span class="preco-valor">R$235<small>/mês</small></span></div>
         <div class="preco-linha"><span class="nome">Performance <small>(5x + sáb.)</small></span><span class="pontos"></span><span class="preco-valor">R$265<small>/mês</small></span></div>
         <div class="preco-linha"><span class="nome">Open Box ilimitado</span><span class="pontos"></span><span class="preco-valor">R$295<small>/mês</small></span></div>
         <ul class="beneficios">
@@ -1145,7 +1150,7 @@
           <li class="sim">Possibilidade de cancelamento*</li>
         </ul>
         <p class="adesao">Sem taxa de adesão</p>
-        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20plano%20%2AAnual%20Recorrente%2A%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%20Starter%20R%24225/m%C3%AAs%2C%20Performance%20R%24265/m%C3%AAs%20ou%20Open%20Box%20R%24295/m%C3%AAs%20%2890%20dias%20de%20f%C3%A9rias%2C%20sem%20taxa%20de%20ades%C3%A3o%29.">Quero esse plano →</a>
+        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20plano%20%2AAnual%20Recorrente%2A%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%20Starter%20R%24235/m%C3%AAs%2C%20Performance%20R%24265/m%C3%AAs%20ou%20Open%20Box%20R%24295/m%C3%AAs%20%2890%20dias%20de%20f%C3%A9rias%2C%20sem%20taxa%20de%20ades%C3%A3o%29.">Quero esse plano →</a>
       </div>
     </div>
 
@@ -1154,15 +1159,19 @@
         <p class="etiqueta">Avulso</p>
         <h3 class="bloco-titulo">Pacotes de aulas</h3>
         <div class="preco-item">
-          <div class="preco-linha"><span class="nome">Drop in</span><span class="pontos"></span><span class="preco-valor">R$50</span></div>
+          <div class="preco-linha"><span class="nome">Drop in</span><span class="pontos"></span><span class="preco-valor">R$60</span></div>
           <p class="preco-legenda">1 treino avulso</p>
         </div>
         <div class="preco-item">
-          <div class="preco-linha"><span class="nome">Pacote 5 check-ins</span><span class="pontos"></span><span class="preco-valor">R$195</span></div>
-          <p class="preco-legenda">Válido por 2 meses</p>
+          <div class="preco-linha"><span class="nome">Pacote 5 check-ins</span><span class="pontos"></span><span class="preco-valor">R$250</span></div>
+          <p class="preco-legenda">R$50 por aula · válido por 2 meses</p>
+        </div>
+        <div class="preco-item">
+          <div class="preco-linha"><span class="nome">Pacote 10 check-ins</span><span class="pontos"></span><span class="preco-valor">R$400</span></div>
+          <p class="preco-legenda">R$40 por aula · válido por 4 meses</p>
         </div>
         <p class="adesao">Sem taxa de adesão</p>
-        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Tenho%20interesse%20nos%20pacotes%20de%20aulas%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%20Drop%20in%20R%2450%20%281%20treino%20avulso%29%20ou%20Pacote%205%20check-ins%20R%24195%20%28v%C3%A1lido%20por%202%20meses%29.">Quero esse pacote →</a>
+        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Tenho%20interesse%20nos%20pacotes%20de%20aulas%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%20Drop%20in%20R%2460%20%281%20treino%20avulso%29%2C%20Pacote%205%20check-ins%20R%24250%20%28R%2450%20por%20aula%2C%20v%C3%A1lido%20por%202%20meses%29%20ou%20Pacote%2010%20check-ins%20R%24400%20%28R%2440%20por%20aula%2C%20v%C3%A1lido%20por%204%20meses%29.">Quero esse pacote →</a>
       </div>
 
       <div class="preco-card">
@@ -1176,16 +1185,16 @@
         <div class="preco-item" style="margin-top: 6px;">
           <p class="kids-opcao-titulo">🐝 3x na semana</p>
           <p class="preco-legenda">Terça, quinta e sexta — 18h30</p>
-          <div class="preco-linha"><span class="nome">Mensal</span><span class="pontos"></span><span class="preco-valor">R$205<small>/mês</small></span></div>
-          <div class="preco-linha"><span class="nome">Trimestral parcelado</span><span class="pontos"></span><span class="preco-valor">R$195<small>/mês</small></span></div>
+          <div class="preco-linha"><span class="nome">Mensal</span><span class="pontos"></span><span class="preco-valor">R$225<small>/mês</small></span></div>
+          <div class="preco-linha"><span class="nome">Trimestral parcelado</span><span class="pontos"></span><span class="preco-valor">R$205<small>/mês</small></span></div>
         </div>
         <div class="preco-item">
           <p class="kids-opcao-titulo">🐝 2x na semana</p>
           <p class="preco-legenda">Terça + 1 dia à escolha (quinta ou sexta) — 18h30</p>
-          <div class="preco-linha"><span class="nome">Mensal</span><span class="pontos"></span><span class="preco-valor">R$195<small>/mês</small></span></div>
-          <div class="preco-linha"><span class="nome">Trimestral parcelado</span><span class="pontos"></span><span class="preco-valor">R$165<small>/mês</small></span></div>
+          <div class="preco-linha"><span class="nome">Mensal</span><span class="pontos"></span><span class="preco-valor">R$205<small>/mês</small></span></div>
+          <div class="preco-linha"><span class="nome">Trimestral parcelado</span><span class="pontos"></span><span class="preco-valor">R$195<small>/mês</small></span></div>
         </div>
-        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Quero%20matricular%20meu%20filho%28a%29%20no%20Cross%20Kids%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%203x%20na%20semana%20%28R%24205/m%C3%AAs%29%20ou%202x%20na%20semana%20%28R%24195/m%C3%AAs%29.">Quero matricular →</a>
+        <a class="btn-solido btn-plano" href="https://wa.me/5544991610707?text=Ol%C3%A1%21%20Quero%20matricular%20meu%20filho%28a%29%20no%20Cross%20Kids%20da%20Vespo%20Crossfit%20%F0%9F%90%9D%20%E2%80%94%203x%20na%20semana%20%28R%24225/m%C3%AAs%29%20ou%202x%20na%20semana%20%28R%24205/m%C3%AAs%29.">Quero matricular →</a>
       </div>
     </div>
 
